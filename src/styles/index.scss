@@ -1,0 +1,45 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#trafficTop {
+  background-color: #000;
+  width: 15px;
+  height: 70px;
+  margin-left: 48px;
+}
+
+#container {
+  background-color: #000;
+  width: 110px;
+  height: 280px;
+  padding: 15px 0;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.light{
+position: relative;
+height: 80px;
+width: 80px;
+border-radius: 50%;
+padding: 4px;
+cursor: pointer;
+  &.red {background-color: #990000;}
+  &.yellow {background-color: rgb(240, 236, 41); }
+  &.green { background-color: #009933; }
+  &.choice{box-shadow: #f8ffcc 0px 0px 50px 20px;}
+}
+
